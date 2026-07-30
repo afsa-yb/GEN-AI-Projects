@@ -1,0 +1,16 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Secrets & Local Env
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Local runtime data & stores
+logs/
+uploads/
+vectorstore/
+data/

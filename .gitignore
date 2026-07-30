@@ -1,0 +1,21 @@
+# Virtual Environments
+venv/
+.venv/
+*/venv/
+*/.venv/
+
+# Environment Variables & Secrets
+.env
+*.env
+*/.env
+
+# Cache & Temporary Files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local runtime stores
+*/logs/
+*/uploads/
+*/vectorstore/
+*/data/
