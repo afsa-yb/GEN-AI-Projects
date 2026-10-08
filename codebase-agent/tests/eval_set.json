@@ -1,0 +1,10 @@
+[
+  {"question": "where is the repo walked and files collected for parsing?",
+   "expected_symbols": ["chunk_repo"], "expected_files": []},
+  {"question": "how are classes split into header and methods?",
+   "expected_symbols": ["chunk_file"], "expected_files": []},
+  {"question": "where do we compute which functions a diff touches?",
+   "expected_symbols": ["impact_analysis", "changed_ranges"], "expected_files": []},
+  {"question": "how does the agent decide which tools to call?",
+   "expected_symbols": ["ask", "_run_tool"], "expected_files": ["agent/qa_agent.py"]}
+]
